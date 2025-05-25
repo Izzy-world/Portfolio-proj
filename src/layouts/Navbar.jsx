@@ -16,7 +16,10 @@ const Navbar = () => {
         <section className="flex justify-between items-center md:px-12 md:py-6 px-2 py-4">
           {/* Logo (link to home) */}
           <Link to="/">
-            <img src={desktopNavLogo} alt="Robert Garcia Logo" />
+         <h2 className="text-[16px] md:text-[40px] font-Bebas font-bold  text-[#C7C7C7] ML-6">
+         ISRAEL.
+        </h2>
+            {/* <img src={desktopNavLogo} alt="Robert Garcia Logo" /> */}
           </Link>
 
           {/* Desktop Navigation */}

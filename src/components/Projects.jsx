@@ -1,42 +1,46 @@
 import React from "react";
 import githubLogo from "../assets/github-logo.svg";
 import mobileArrowIcon from "../assets/mobile-arrow.png";
+import urlImage from "../assets/Url-proj-image.png"
+
 
 const Projects = () => {
   const projects = [
-    {
-      Image:
-        "https://res.cloudinary.com/dd9nujmdt/image/upload/v1747787398/projectImg1_ty9no4.svg",
-      title: "Promotional landing page for our favorite show",
-      description:
-        "Teamed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure Time. Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a newsletter feature to keep fans updated with the latest adventures.",
-      year: "2023",
-      role: "Front-End Developer",
-      liveDemo: "#",
-      githubLink: "#",
-    },
+
     {
       Image:
         "https://res.cloudinary.com/dd9nujmdt/image/upload/v1747787413/projectImg2_wz3xdk.svg",
       title: "Blog site for World News",
       description:
         "Mastered CSS Grid complexities in building an innovative news homepage, navigating intricate design decisions for a seamless user experience. Leveraged the challenge to enhance skills in  front-end development.",
-      year: "2022",
-      role: "Full-Stack Developer",
-      liveDemo: "#",
-      githubLink: "#",
-    },
-    {
-      Image:
-        "https://res.cloudinary.com/dd9nujmdt/image/upload/v1747787413/projectImg3_dki34b.svg",
-      title: "E-commerce product page",
-      description:
-        "Successfully crafted an engaging product page featuring a dynamic lightbox gallery and seamless cart functionality, showcasing proficiency in JavaScript development.",
-      year: "2022",
+      year: "2024",
       role: "Front-End Developer",
       liveDemo: "#",
       githubLink: "#",
     },
+     {
+      Image:
+        "https://res.cloudinary.com/dd9nujmdt/image/upload/v1748010425/Screenshot_2025-05-23_at_3.24.10_PM_qds6e2.png",
+      title: "Burger E-Commerce Platform",
+      description:
+        "Built a high-converting online ordering system with cart functionality.Designed a performance-optimized UI with lazy-loaded menu images, Implemented user auth, personalized recommendations.",
+      year: "2025",
+      role: "Full-Stack Developer",
+      liveDemo: "#",
+      githubLink: "#",
+    },
+        {
+  Image: urlImage,
+  title: "URL Shortener Landing Page",
+  description:
+    "Developed a modern landing page for a URL shortening service with a clean UI. Implemented the front-end for the link shortening functionality, user authentication flows, and analytics dashboard integration. The responsive design features a call-to-action for link conversion and highlights key benefits of the service.",
+  year: "2025",
+  role: "Front-End Developer",
+  liveDemo: "#",
+  githubLink: "#",
+},
+    
+   
   ];
 
   return (
@@ -46,7 +50,7 @@ const Projects = () => {
         <h2 className="text-[46px] md:text-[60px] font-Bebas font-bold uppercase text-[#FFFFFF] mb-5">
           FEATURED PROJECTS
         </h2>
-        <p className="text-[16px]  md:text-[18px] font-Manrope text-[#C7C7C7] mt-5 break-words">
+        <p className="text-[16px]  md:text-[18px] font-Manrope text-[#C7C7C7] mt-4 break-words lg:w-[600px]">
           Here are some of the selected projects that showcase my passion for
           front-end development.
         </p>

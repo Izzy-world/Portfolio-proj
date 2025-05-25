@@ -1,4 +1,5 @@
-import heroImg from "../assets/hero-img-port.png";
+// import heroImg from "../assets/hero-img-port.png";
+import heroImg from "../assets/image-izzy-copy.jpg"
 import githubLogo from "../assets/github-logo.svg";  
 import linkedinLogo from "../assets/linkedin-logo.svg";
 import BlackDotLogo from "../assets/black dot-icon.png";
@@ -13,10 +14,10 @@ const Hero = () => {
       <section className="flex flex-col items-start text-left">
         <div className="text-white lg:w-[544px] w-full h-auto mt-8 lg:mt-0">
           <h1 className="font-normal lg:text-[64px] md:text-[57px] text-[57px] leading-[90%] h-auto font-Bebas sm:mt-5">
-            HI, I AM <br /> ROBERT GARCIA.
+            HI, I AM <br /> ISRAEL UMEZURIKE.
           </h1>
           <p className="lg:leading-[90%] leading-[90%] lg:text-[18px] md:text-[16px] text-[12px] h-auto font-normal font-Manrope pt-2 text-[#C7C7C7]">
-            A Sydney based front-end developer passionate about building
+            A Nigerian based front-end developer passionate about building
             accessible and user-friendly websites.
           </p>
         </div>

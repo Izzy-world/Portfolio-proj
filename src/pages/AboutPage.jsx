@@ -3,9 +3,11 @@ import BlackDotLogo from "../assets/black dot-icon.png";
 import downloadArrow from "../assets/Download-Arrow.svg.png";
 import linkedinLogo from "../assets/linkedin-logo.svg";
 import githubLogo from "../assets/github-logo.svg";  
-import Profiledesktop from "../assets/Aboutpage-IMG-desktop.png";
-import Profilemobile from "../assets/Aboutpage-IMG-mobile.png";
+// import Profiledesktop from "../assets/Aboutpage-IMG-desktop.png";
+// import Profilemobile from "../assets/Aboutpage-IMG-mobile.png";
 import ContactForm from "../components/ContactForm";
+import profilePic from "../assets/image-izzy-copy.jpg"
+
 
 const AboutPage = () => {
   return (
@@ -20,12 +22,11 @@ const AboutPage = () => {
         {/* Right: Header, Paragraph, and Links */}
         <div className="flex flex-col gap-6 lg:w-1/2 font-Manrope">
           <h2 className="text-[26px] md:text-[24px]  text-[#FFFFFF]">
-            I am a front-end developer based in Sydney. Has Mechanical
-            Engineering background.
+            I am a front-end developer based in Nigeria. Has Political Science background.
           </h2>
           <p className="text-[18px] md:text-base text-[#C7C7C7] leading-relaxed">
-            I am a front-end developer based in Sydney looking for exciting
-            opportunities. Has Mechanical Engineering background. Likes to focus
+            I am a front-end developer based in Nigeria looking for exciting
+            opportunities. Has Political Science background. Likes to focus
             on accessibility when developing. Passionate and curious about
             solving problems. Currently, I’m exploring Reactjs, Webflow and a
             bit of Designing. While I am not programming, I enjoy playing
@@ -71,13 +72,13 @@ const AboutPage = () => {
       {/* Desktop Image */}
       <div className="mt-12 md:flex py-12 justify-center">
         <img
-          src={Profiledesktop}
+          src={profilePic}
           alt="Profile"
           className="object-cover hidden  md:block shadow-lg"
         />
         {/* Mobile Image */}
         <img
-          src={Profilemobile}
+          src={profilePic}
           alt="Profile Mobile"
           className=" w-full md:hidden shadow-lg"
         />
@@ -91,9 +92,7 @@ const AboutPage = () => {
         {/* Right: Header, Paragraph, and Button */}
         <div className="flex flex-col gap-6 lg:w-1/2 ">
           <p className="text-[16px] font-Manrope text-[#C7C7C7] leading-relaxed">
-            I am always lookng forward to add more skills to my portfolio. Morbi
-            equestas neque eu blandit fermentum. Nulla ac norbotis ligula.
-            Pellentesque ac ex at purus faucibus tristique ut et dolor.
+            I am always lookng forward to add more skills to my portfolio. I build fast, accessible apps that users love.
           </p>
           <div className="text-[16px] text-white leading-">
             <div className="flex flex-wrap gap-4 text-[#FFFFFF] mb-4 font-Manrope">
@@ -135,15 +134,13 @@ const AboutPage = () => {
           <div className="mb-5">
             <div className="md:flex justify-between items-center mb-4">
               <h2 className="text-[18px] text-[#FFFFFF]">
-                Freelance developer
+                Freelance Front-End Developer
               </h2>
-              <h2 className="text-[16px] text-[#C7C7C7]">Nov 2023 - Present</h2>
+              <h2 className="text-[16px] text-[#C7C7C7]">Nov 2024 - Present</h2>
             </div>
             <div>
               <p className="text-[16px] text-[#C7C7C7] leading-relaxed">
-                Ullamco laboris nisi ex ea commodo consequat. Duis aute irure
-                dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur.
+                Collaborated directly with designers and stakeholders to transform wireframes into production-ready apps.
               </p>
             </div>
           </div>
@@ -151,13 +148,13 @@ const AboutPage = () => {
             <div className="md:flex justify-between items-center mb-4">
               <h2 className="text-[18px] text-[#FFFFFF]">Front-End Intern</h2>
               <h2 className="text-[16px] text-[#C7C7C7]">
-                Sept 2023 - Nov 2023
+                May 2025 - july 2025
               </h2>
             </div>
-            <h3 className="text-[#D3E97A]">Roos Tech</h3>
+            <h3 className="text-[#D3E97A]">Tech Studio</h3>
             <p className="text-[16px] text-[#C7C7C7] leading-relaxed pt-4">
-              I am a front-end developer based in Sydney looking for exciting
-              opportunities. Has Mechanical Engineering background. Likes to
+              I am a front-end developer based in Nigeria looking for exciting
+              opportunities. Has Political Science background. Likes to
               focus on accessibility when developing. Passionate and curious
               about solving problems. Currently, I'm exploring Reactjs, Webflow
               and a bit of Designing. While I am not programming, I enjoy

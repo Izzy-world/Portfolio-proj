@@ -19,21 +19,21 @@ const About = () => {
 
       {/* Right: Header, Paragraph, and Button */}
       <div className="flex flex-col gap-6 lg:w-1/2 font-Manrope">
-        <h2 className="text-[30px] hidden md:block  text-[#FFFFFF]">
-          I am a front-end developer based in Sydney. Has Mechanical Engineering
+        <h2 className="text-[32px] hidden md:block  text-[#FFFFFF]">
+          I am a front-end developer based in Nigeria. Has Political Science
           background.
         </h2>
         <p className="text-[16px] text-[#C7C7C7] leading-relaxed hidden md:block">
-          I am a front-end developer based in Sydney looking for exciting
-          opportunities. Has Mechanical Engineering background. Likes to focus
+          I am a front-end developer based in Nigeria looking for exciting
+          opportunities. Has Political Science background. Likes to focus
           on accessibility when developing. Passionate and curious about solving
           problems. Currently, I’m exploring Reactjs, Webflow and a bit of
           Designing. While I am not programming, I enjoy playing football,
           photography and playing Valorant. Learning more to improve skill.
         </p>
         <p className="text-[16px] text-[#C7C7C7] leading-relaxed  md:hidden">
-          I am a front-end developer based in Sydney looking for exciting
-          opportunities. Has Mechanical Engineering background. Likes to focus
+          I am a front-end developer based in Nigeria looking for exciting
+          opportunities. Has Nigeria background. Likes to focus
           on accessibility when developing.
         </p>
 
@@ -44,7 +44,7 @@ const About = () => {
           More About Me
         </button>
 
-        <img className="lg:hidden" src={aboutMeImage} alt={aboutMeImage} />
+        {/* <img className="lg:hidden" src={aboutMeImage} alt={aboutMeImage} /> */}
       </div>
     </section>
   );

@@ -5,7 +5,8 @@ import githubLogo from "../assets/github-logo.svg";
 import twitterIcon from "../assets/twitter-logo.svg";
 import instagramIcon from "../assets/insta-logo.svg";
 import useContactForm from "../hooks/useContactForm";
-import mobileImage from "../assets/image 25.png";
+// import mobileImage from "../assets/image 25.png";
+import mobileImage from "../assets/WhatsApp Image-izzy2.jpg"
 
 const ContactForm = () => {
   const {
