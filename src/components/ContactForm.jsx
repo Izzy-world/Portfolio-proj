@@ -36,7 +36,7 @@ const ContactForm = () => {
         <p className="text-sm md:text-base text-[#C7C7C7] font-Manrope">
           Say hello at{" "}
           <a href="mailto:umezurikeisrael012@gmail.com" className="text-[#D3E97A] hover:underline">
-            umezurikeisrael012gmail.com
+            umezurikeisrael012@gmail.com
           </a>
           .<br />
           For more info, here is my{" "}
